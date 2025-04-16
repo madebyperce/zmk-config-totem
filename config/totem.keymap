@@ -60,6 +60,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <13 16>;
         };
+
+        combo_unlock {
+            bindings = <&studio_unlock>;
+            key-positions = <20 31>;
+        };
     };
 
     macros {
@@ -81,9 +86,9 @@
 
     keymap {
         compatible = "zmk,keymap";
+
         base_layer {
             label = "BASE";
-
             bindings = <
        &trans          &kp M       &kp L        &kp C        &kp P        &kp X        &kp F            &kp O           &kp U          &trans
        &mt LEFT_GUI S  &mt LALT T  &mt LCTRL R  &mt LSHFT D  &kp Y        &kp PERIOD   &mt RSHFT N      &mt RCTRL A     &mt RALT E     &mt LEFT_GUI I
@@ -94,10 +99,10 @@
 
         sym_layer {
             bindings = <
-                  &trans         &kp RIGHT_BRACE  &kp RBKT  &kp RIGHT_PARENTHESIS  &kp BSLH    &kp UNDERSCORE  &kp CARET     &kp SQT        &kp DOUBLE_QUOTES  &trans
-                  &kp LESS_THAN  &kp LEFT_BRACE   &kp LBKT  &kp LEFT_PARENTHESIS   &kp FSLH    &kp MINUS       &kp ASTERISK  &kp PERCENT    &kp SEMI           &trans
-&kp GREATER_THAN  &kp POUND      &kp DOLLAR       &trans    &kp EXCLAMATION        &kp PIPE    &kp TILDE       &kp AT_SIGN   &kp AMPERSAND  &kp COLON          &trans  &trans
-                                                  &trans    &trans                 &trans      &trans          &trans        &trans
+                  &trans         &kp RIGHT_BRACE  &kp RBKT      &kp RIGHT_PARENTHESIS  &kp BSLH    &kp UNDERSCORE  &kp CARET     &kp SQT        &kp DOUBLE_QUOTES  &trans
+                  &kp LESS_THAN  &kp LEFT_BRACE   &kp LBKT      &kp LEFT_PARENTHESIS   &kp FSLH    &kp MINUS       &kp ASTERISK  &kp PERCENT    &kp SEMI           &trans
+&kp GREATER_THAN  &kp POUND      &kp DOLLAR       &kp QUESTION  &kp EXCLAMATION        &kp PIPE    &kp TILDE       &kp AT_SIGN   &kp AMPERSAND  &kp COLON          &trans  &trans
+                                                  &trans        &trans                 &trans      &trans          &trans        &trans
             >;
 
             label = "SYM";
