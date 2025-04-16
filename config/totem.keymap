@@ -60,6 +60,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <13 16>;
         };
+
+        combo_unlock {
+            bindings = <&studio_unlock>;
+            key-positions = <20 31>;
+        };
     };
 
     macros {
