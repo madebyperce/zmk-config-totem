@@ -101,7 +101,7 @@
             bindings = <
                   &trans         &kp RIGHT_BRACE  &kp RBKT      &kp RIGHT_PARENTHESIS  &kp BSLH    &kp UNDERSCORE  &kp CARET     &kp SQT        &kp DOUBLE_QUOTES  &trans
                   &kp LESS_THAN  &kp LEFT_BRACE   &kp LBKT      &kp LEFT_PARENTHESIS   &kp FSLH    &kp MINUS       &kp ASTERISK  &kp PERCENT    &kp SEMI           &trans
-&kp GREATER_THAN  &kp POUND      &kp DOLLAR       &kp QUESTION  &kp EXCLAMATION        &kp PIPE    &kp TILDE       &kp AT_SIGN   &kp AMPERSAND  &kp COLON          &trans  &trans
+&kp GREATER_THAN  &kp POUND      &kp DOLLAR       &kp QUESTION  &kp EXCLAMATION        &kp PIPE    &kp TILDE       &kp AT_SIGN   &kp AMPERSAND  &kp COLON          &trans  &ind_bat
                                                   &trans        &trans                 &trans      &trans          &trans        &trans
             >;
 
