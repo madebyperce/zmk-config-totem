@@ -96,9 +96,9 @@
         base_layer {
             label = "BASE";
             bindings = <
-       &trans          &kp M       &kp L        &kp C        &kp P        &kp X        &kp F            &kp O           &kp U          &trans
-       &mt LEFT_GUI S  &mt LALT T  &mt LCTRL R  &mt LSHFT D  &kp Y        &kp PERIOD   &mt RSHFT N      &mt RCTRL A     &mt RALT E     &mt LEFT_GUI I
-&kp V  &kp Z           &kp K       &kp Q        &kp G        &kp W        &kp B        &kp H            &kp APOSTROPHE  &kp SEMICOLON  &kp COMMA       &kp J
+       &trans          &kp C       &kp L        &kp D        &kp V        &kp Z        &kp U            &kp O        &kp Y       &trans
+       &mt LEFT_GUI R  &mt LALT S  &mt LCTRL N  &mt LSHFT T  &kp P        &kp K        &mt RSHFT A      &mt RCTRL E  &mt RALT I  &mt LEFT_GUI H
+&kp W  &kp Q           &kp F       &kp M        &kp G        &kp B        &kp J        &kp X            &kp COMMA    &kp PERIOD  &kp SLASH       &kp APOSTROPHE
                                    &trans       &mo 1        &kp SPACE    &lt 2 ENTER  &lt 3 BACKSPACE  &trans
             >;
         };
