@@ -32,10 +32,10 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_tab {
+        combo_v {
             timeout-ms = <50>;
             key-positions = <1 2>;
-            bindings = <&kp TAB>;
+            bindings = <&kp V>;
         };
 
         combo_del {
@@ -55,22 +55,40 @@
 
         combo_pscn {
             bindings = <&kp PRINTSCREEN>;
-            key-positions = <31 30>;
+            key-positions = <29 19>;
         };
 
         combo_esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <13 16>;
+            key-positions = <15 5>;
         };
 
         combo_unlock {
             bindings = <&studio_unlock>;
-            key-positions = <20 31>;
+            key-positions = <0 9>;
         };
 
         layer_toggle {
             bindings = <&tog 4>;
             key-positions = <33 34 35 36>;
+        };
+
+        combo_q {
+            bindings = <&kp Q>;
+            key-positions = <2 3>;
+            timeout-ms = <50>;
+        };
+
+        combo_z {
+            bindings = <&kp Z>;
+            key-positions = <22 23>;
+            timeout-ms = <50>;
+        };
+
+        combo_tab {
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
+            timeout-ms = <50>;
         };
     };
 
